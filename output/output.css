@@ -598,24 +598,19 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-slate-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
-}
-
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.from-green-400 {
-  --tw-gradient-from: #4ade80;
-  --tw-gradient-to: rgb(74 222 128 / 0);
+.from-sky-600 {
+  --tw-gradient-from: #0284c7;
+  --tw-gradient-to: rgb(2 132 199 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-indigo-400 {
-  --tw-gradient-from: #818cf8;
-  --tw-gradient-to: rgb(129 140 248 / 0);
+.from-black {
+  --tw-gradient-from: #000;
+  --tw-gradient-to: rgb(0 0 0 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -625,15 +620,16 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-sky-600 {
-  --tw-gradient-from: #0284c7;
-  --tw-gradient-to: rgb(2 132 199 / 0);
+.from-indigo-600 {
+  --tw-gradient-from: #4f46e5;
+  --tw-gradient-to: rgb(79 70 229 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.via-green-400 {
-  --tw-gradient-to: rgb(74 222 128 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), #4ade80, var(--tw-gradient-to);
+.from-indigo-500 {
+  --tw-gradient-from: #6366f1;
+  --tw-gradient-to: rgb(99 102 241 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .via-green-200 {
@@ -641,12 +637,43 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), #bbf7d0, var(--tw-gradient-to);
 }
 
-.to-blue-500 {
-  --tw-gradient-to: #3b82f6;
+.via-black {
+  --tw-gradient-to: rgb(0 0 0 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), #000, var(--tw-gradient-to);
+}
+
+.via-slate-900 {
+  --tw-gradient-to: rgb(15 23 42 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), #0f172a, var(--tw-gradient-to);
+}
+
+.via-white {
+  --tw-gradient-to: rgb(255 255 255 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), #fff, var(--tw-gradient-to);
 }
 
 .to-indigo-500 {
   --tw-gradient-to: #6366f1;
+}
+
+.to-indigo-200 {
+  --tw-gradient-to: #c7d2fe;
+}
+
+.to-sky-600 {
+  --tw-gradient-to: #0284c7;
+}
+
+.to-indigo-800 {
+  --tw-gradient-to: #3730a3;
+}
+
+.to-emerald-300 {
+  --tw-gradient-to: #6ee7b7;
+}
+
+.to-sky-400 {
+  --tw-gradient-to: #38bdf8;
 }
 
 .p-2 {
