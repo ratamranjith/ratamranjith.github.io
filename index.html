@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Truder Profile</title>
-    <link href="Styles/main.css" rel="stylesheet"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A simple example of an HTML document structure for SEO." />
+  <meta name="keywords" content="HTML, SEO, example, structure" />
+  <meta name="theme-color" content="#317EFB" />
+  <link href="Styles/preloader.css" rel="stylesheet" />
+  <link href="Styles/main.css" rel="stylesheet" />
+  <link href="Styles/particle.css" rel="stylesheet" />
+  <link rel="manifest" href="manifest.json" />
+  <title>Truder Portfolio</title>
 </head>
 <body>
-    sf
+  <div class="preloader-overlay">
+    <!-- SVG Loader -->
+    <svg width="50px" height="50px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-ripple"
+      style="background: none; transform: translate(0px, 0px);">
+      <circle cx="50" cy="50" r="0" fill="none" stroke="#1d3f72" stroke-width="4">
+        <animate attributeName="r" calcMode="linear" values="0;40" keyTimes="0;1" dur="1.5s" begin="0s"
+          repeatCount="indefinite"></animate>
+        <animate attributeName="opacity" calcMode="linear" values="1;0" keyTimes="0;1" dur="1.5s" begin="0s"
+          repeatCount="indefinite"></animate>
+      </circle>
+      <circle cx="50" cy="50" r="0" fill="none" stroke="#5699d2" stroke-width="4">
+        <animate attributeName="r" calcMode="linear" values="0;40" keyTimes="0;1" dur="1.5s" begin="-0.75s"
+          repeatCount="indefinite"></animate>
+        <animate attributeName="opacity" calcMode="linear" values="1;0" keyTimes="0;1" dur="1.5s" begin="-0.75s"
+          repeatCount="indefinite"></animate>
+      </circle>
+    </svg>
+    <!-- End of SVG Loader -->
+  </div>
+  <div id="particles-js"></div>
+  <!-- stats - count particles -->
+  <nav>
+    <!-- Menu to be added -->
+  </nav>
+  <div>
+
+    <ul>
+      <li class="profile-link">
+        <img class="profile-image" src="images/profile.jpg" alt="profile-image" draggable="false" />
+      </li>
+    </ul>
+  </div>
+  <div class="glitch-wrapper">
+    <div class="glitch" data-text="Truder">Truder</div>
+    <p><br /><br /><br />Simple & Loyal</p>
+  </div>
+  <script src="Scripts/preloader.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="Scripts/particle.min.js"></script>
+  <script src="Scripts/stats.min.js"></script>
+  <script src="Scripts/customParticle.js"></script>
 </body>
+
 </html>
