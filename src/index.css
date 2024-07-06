@@ -1,0 +1,24 @@
+@import './tailwind.css';
+
+/* Global styles */
+html, body {
+  transition: background-color 1s ease, color 0.9s ease;
+}
+
+/* Light theme styles */
+:root {
+  --bg-color:  linear-gradient(to right, #ece9e6, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --icon-color: #fcff4b;
+}
+
+/* Dark theme styles */
+.dark {
+
+  --bg-color: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --icon-color: #000000;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
