@@ -3,7 +3,7 @@ const projectsData = [
   {
     id: 1,
     title: "Text to Morse Code",
-    image: "/src/assets/images/morseCode/LetterR.jpg",
+    image: "./src/assets/images/morseCode/LetterR.jpg",
     alt: "Morse Code",
     component: MorseCodeConverter,
     tags: ["Python", "React"],
