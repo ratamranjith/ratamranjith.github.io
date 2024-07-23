@@ -1,12 +1,13 @@
-import React from 'react';
-import ThemeToggle from './ThemeToggle';
+import React from "react";
+import ThemeToggle from "./ThemeToggle";
+import Navigation from "./Navigation";
 
 const Header = () => {
   return (
-    <header className="p-4 bg-gray-800 text-white">
-      <ThemeToggle/>
-      <h1>My Portfolio</h1>
-    </header>
+    <>
+      <Navigation />
+      <ThemeToggle />
+    </>
   );
 };
 
