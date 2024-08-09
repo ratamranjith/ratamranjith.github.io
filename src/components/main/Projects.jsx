@@ -81,7 +81,7 @@ const Projects = () => {
 
       {openModalId !== null && (
         <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75 animate-fadeIn">
-          <div className="relative w-full max-w-4xl max-h-full mx-auto bg-white rounded-lg border border-indigo-600 shadow-lg animate-slideUp">
+          <div className="relative w-full max-w-4xl max-h-full mx-auto bg-white rounded-lg border border-white shadow-lg animate-slideUp">
             <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
               <h3 className="text-xl font-medium text-gray-900 dark:text-black">
                 {

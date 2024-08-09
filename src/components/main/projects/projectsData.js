@@ -20,8 +20,8 @@ const projectsData = [
   {
     id: 3,
     title: "Folder and File Size Explorer",
-    image: "/assets/images/SortingVisualizer/SortingAlgorithmVisualizer.jpg",
-    alt: "Sorting Visualizer",
+    image: "/assets/images/folderSizeExplorer/folderSizeExplorer.png",
+    alt: "Folder Size Viewer",
     url: "https://github.com/ratamranjith/DataStructures/tree/373246b5c6f23b1a893fc34dcb3ebb329ea642ee/Animations/Sorting",
     tags: ["Python", "gui"],
   },
