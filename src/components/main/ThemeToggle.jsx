@@ -7,10 +7,10 @@ const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="p-4 text-white theme-toggle-button"
+      className="p-2 text-white theme-toggle-button border-lime-400"
       title={theme + " mode"}
     >
-      {theme === "light" ? (
+      {theme === "dark" ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 16 16"

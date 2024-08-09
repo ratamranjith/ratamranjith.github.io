@@ -45,16 +45,16 @@ const Projects = () => {
   };
 
   return (
-    <div className="p-4 m-10 bg-[var(--bg-color)] text-[var(--text-color)] flex flex-wrap justify-center gap-2">
+    <div className="p-16 m-10 bg-[var(--bg-color)] text-[var(--text-color)] flex flex-wrap justify-center gap-10">
       {projectsData.map((project) => (
         <div key={project.id} className="w-full md:w-1/2 lg:w-1/3 xl:w-1/5 p-6">
           <div className="bg-violet-900 rounded-2xl antialiased text-white p-4 flex flex-col items-center">
             <img
-              className="m-3 w-20 h-20 object-cover object-center rounded-lg shadow-md"
+              className="m-2 w-25 h-25 object-cover rounded-full border border-white"
               src={project.image}
               alt={project.alt}
             />
-            <h5 className="mb-1 text-sm font-medium text-white dark:text-lime-500">
+            <h5 className="mb-1 text-sm font-medium text-white justify-center dark:text-lime-500">
               {project.title}
             </h5>
             <div className="flex flex-wrap mt-2 md:mt-4">

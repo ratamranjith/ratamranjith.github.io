@@ -11,7 +11,7 @@
 }
 
 .theme-toggle-button:hover {
-  animation: rotate cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
+  animation: rotate cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.9s;
 }
 
 @keyframes rotate {

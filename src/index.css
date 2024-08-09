@@ -2,19 +2,16 @@
 
 /* Global styles */
 html, body {
-  transition: background-color 1s ease, color 0.9s ease;
+  transition: background-color 1s ease-in-out, color 1.9s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 /* Light theme styles */
-/* :root {
-  --bg-color:  linear-gradient(to right, #ece9e6, #ffffff);
-  --icon-color: #fcff4b;  
-} */
-
 :root {
+  --icon-color: #000000;
+  background-color: #fffefa;
   --theme-bg-color: rgba(16 18 27 / 40%);
   --border-color: rgba(113 119 144 / 25%);
-  --theme-color: #f9fafb;
+  --theme-color: #006fde;
   --inactive-color: rgb(113 119 144 / 78%);
   --body-font: "Poppins", sans-serif;
   --hover-menu-bg: rgba(12 15 25 / 30%);
@@ -29,13 +26,12 @@ html, body {
   --scrollbar-bg: rgb(1 2 3 / 40%);
  }
  
-
-
 /* Dark theme styles */
 .dark {
   --text-color: #000000;
-  --bg-color: linear-gradient(90deg, #0f0c29 0%, #0f0c29 50%, #0f0c29 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  --icon-color: #000000;
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23340087' fill-opacity='0.86' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");  /*  --bg-color: linear-gradient(90deg, #0f0c29 0%, #0f0c29 50%, #0f0c29 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --icon-color: #ffffff;
 }
 
 body {

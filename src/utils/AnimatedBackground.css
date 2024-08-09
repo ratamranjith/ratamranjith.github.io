@@ -1,0 +1,64 @@
+
+  .wrapper {
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: visible;
+  }
+  
+  .round {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #00ff0d;
+    border: 0.5px solid #01b4f9;
+    opacity: 0;
+    box-shadow: 0 0 100px #ff5100, 0 0 5px #01b4f9, 0 0 5px #01b4f9;
+    animation: animate 6s linear infinite, ani-2 2s linear infinite;
+  }
+
+  @keyframes animate {
+    0% {
+      top: 0;
+      opacity: 1;
+    }
+    20% {
+      top: 20%;
+      opacity: 0.8;
+      rotate: 190deg;
+      translate: 5px 10px;
+    }
+    40% {
+      top: 40%;
+      opacity: 0.6;
+      translate: -10px 10px;
+    }
+    60% {
+      top: 60%;
+      opacity: 0.4;
+      border: 0.5px solid lime;
+    }
+    80% {
+      top: 40%;
+      opacity: 0.2;
+      rotate: 190deg;
+      translate: -10px 20px;
+    }
+    100% {
+      top: 1%;
+      opacity: 2;
+      
+    }
+  }
+  
+  @keyframes ani-2 {
+    0%, 100% {
+      transform: scale(0.5);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+  }
+  

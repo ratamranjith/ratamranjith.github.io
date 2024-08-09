@@ -1,38 +1,44 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../../public/assets/css/Navigation.css";
 
 const Navigation = () => {
   return (
-    <nav className="bg-indigo-950 p-6 bg-fixed">
-      <ul className="flex space-x-4">
-        <li>
-          <Link to="/index" className="text-white hover:text-gray-400">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="/projects" className="text-white hover:text-gray-400">
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link to="/interests" className="text-white hover:text-gray-400">
-            Interests
-          </Link>
-        </li>
+    <div class="navigation">
+      <nav className="pb-px pt-6 flex justify-center">
+        <ul className="flex space-x-10 dark:text-white text-black font-semibold text-xl">
+          <li>
+            <Link to="/index" className=" dark:hover:text-yellow-200  menu-box">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/projects"
+              className=" dark:hover:text-yellow-200  menu-box"
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link to="/interests" className=" hover:text-yellow-200  menu-box">
+              Interests
+            </Link>
+          </li>
 
-        <li>
-          <Link to="/contact" className="text-white hover:text-gray-400">
-            Contact
-          </Link>
-        </li>
-        <li>
-          <Link to="/resume" className="text-white hover:text-gray-400">
-            Download Resume
-          </Link>
-        </li>
-      </ul>
-    </nav>
+          <li>
+            <Link to="/contact" className=" hover:text-yellow-200  menu-box">
+              Contact
+            </Link>
+          </li>
+          <li>
+            <Link to="/resume" className=" hover:text-yellow-200  menu-box">
+              Download Resume
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </div>
   );
 };
 
